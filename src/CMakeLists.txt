@@ -125,36 +125,36 @@ if(ASTRA_USE_CUDA)
         CudaSartAlgorithm.cpp
         CudaSirtAlgorithm.cpp
         CudaSirtAlgorithm3D.cpp
-        ${CMAKE_SOURCE_DIR}/2d/algo.cu
-        ${CMAKE_SOURCE_DIR}/2d/arith.cu
-        ${CMAKE_SOURCE_DIR}/2d/astra.cu
-        ${CMAKE_SOURCE_DIR}/2d/cgls.cu
-        ${CMAKE_SOURCE_DIR}/2d/darthelper.cu
-        ${CMAKE_SOURCE_DIR}/2d/em.cu
-        ${CMAKE_SOURCE_DIR}/2d/fan_bp.cu
-        ${CMAKE_SOURCE_DIR}/2d/fan_fp.cu
-        ${CMAKE_SOURCE_DIR}/2d/fbp.cu
-        ${CMAKE_SOURCE_DIR}/2d/fft.cu
-        ${CMAKE_SOURCE_DIR}/2d/par_bp.cu
-        ${CMAKE_SOURCE_DIR}/2d/par_fp.cu
-        ${CMAKE_SOURCE_DIR}/2d/sart.cu
-        ${CMAKE_SOURCE_DIR}/2d/sirt.cu
-        ${CMAKE_SOURCE_DIR}/2d/util.cu
-        ${CMAKE_SOURCE_DIR}/3d/algo3d.cu
-        ${CMAKE_SOURCE_DIR}/3d/arith3d.cu
-        ${CMAKE_SOURCE_DIR}/3d/astra3d.cu
-        ${CMAKE_SOURCE_DIR}/3d/cgls3d.cu
-        ${CMAKE_SOURCE_DIR}/3d/cone_bp.cu
-        ${CMAKE_SOURCE_DIR}/3d/cone_cyl.cu
-        ${CMAKE_SOURCE_DIR}/3d/cone_cyl_bp.cu
-        ${CMAKE_SOURCE_DIR}/3d/cone_fp.cu
-        ${CMAKE_SOURCE_DIR}/3d/darthelper3d.cu
-        ${CMAKE_SOURCE_DIR}/3d/fdk.cu
-        ${CMAKE_SOURCE_DIR}/3d/mem3d.cu
-        ${CMAKE_SOURCE_DIR}/3d/par3d_bp.cu
-        ${CMAKE_SOURCE_DIR}/3d/par3d_fp.cu
-        ${CMAKE_SOURCE_DIR}/3d/sirt3d.cu
-        ${CMAKE_SOURCE_DIR}/3d/util3d.cu)
+        ${CMAKE_SOURCE_DIR}/cuda/2d/algo.cu
+        ${CMAKE_SOURCE_DIR}/cuda/2d/arith.cu
+        ${CMAKE_SOURCE_DIR}/cuda/2d/astra.cu
+        ${CMAKE_SOURCE_DIR}/cuda/2d/cgls.cu
+        ${CMAKE_SOURCE_DIR}/cuda/2d/darthelper.cu
+        ${CMAKE_SOURCE_DIR}/cuda/2d/em.cu
+        ${CMAKE_SOURCE_DIR}/cuda/2d/fan_bp.cu
+        ${CMAKE_SOURCE_DIR}/cuda/2d/fan_fp.cu
+        ${CMAKE_SOURCE_DIR}/cuda/2d/fbp.cu
+        ${CMAKE_SOURCE_DIR}/cuda/2d/fft.cu
+        ${CMAKE_SOURCE_DIR}/cuda/2d/par_bp.cu
+        ${CMAKE_SOURCE_DIR}/cuda/2d/par_fp.cu
+        ${CMAKE_SOURCE_DIR}/cuda/2d/sart.cu
+        ${CMAKE_SOURCE_DIR}/cuda/2d/sirt.cu
+        ${CMAKE_SOURCE_DIR}/cuda/2d/util.cu
+        ${CMAKE_SOURCE_DIR}/cuda/3d/algo3d.cu
+        ${CMAKE_SOURCE_DIR}/cuda/3d/arith3d.cu
+        ${CMAKE_SOURCE_DIR}/cuda/3d/astra3d.cu
+        ${CMAKE_SOURCE_DIR}/cuda/3d/cgls3d.cu
+        ${CMAKE_SOURCE_DIR}/cuda/3d/cone_bp.cu
+        ${CMAKE_SOURCE_DIR}/cuda/3d/cone_cyl.cu
+        ${CMAKE_SOURCE_DIR}/cuda/3d/cone_cyl_bp.cu
+        ${CMAKE_SOURCE_DIR}/cuda/3d/cone_fp.cu
+        ${CMAKE_SOURCE_DIR}/cuda/3d/darthelper3d.cu
+        ${CMAKE_SOURCE_DIR}/cuda/3d/fdk.cu
+        ${CMAKE_SOURCE_DIR}/cuda/3d/mem3d.cu
+        ${CMAKE_SOURCE_DIR}/cuda/3d/par3d_bp.cu
+        ${CMAKE_SOURCE_DIR}/cuda/3d/par3d_fp.cu
+        ${CMAKE_SOURCE_DIR}/cuda/3d/sirt3d.cu
+        ${CMAKE_SOURCE_DIR}/cuda/3d/util3d.cu)
 
   set(ASTRA_CUDA_INCLUDES ${CMAKE_CUDA_TOOLKIT_INCLUDE_DIRECTORIES})
 
