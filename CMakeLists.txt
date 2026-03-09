@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.18.0)
 
 # Get consistent behavior out of all the compilers
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
@@ -33,4 +33,3 @@ install(
   FILE "AstraTargets.cmake"
   NAMESPACE "astra::"
   DESTINATION "lib/cmake/astra")
-  
